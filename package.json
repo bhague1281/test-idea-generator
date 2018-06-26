@@ -1,7 +1,7 @@
 {
   "name": "test-idea-generator",
   "version": "0.1.0",
-  "homepage": "http://lanettecream.github.io/test-idea-generator",
+  "homepage": "http://bhague1281.github.io/test-idea-generator",
   "private": false,
   "dependencies": {
     "react": "^16.4.1",
