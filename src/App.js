@@ -6,12 +6,12 @@ import Checklist from './Checklist.js';
 
 
 const Paths = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
 
       <Switch>
         <Route exact path="/" component={TestIdeasHome} />
-        <Route path={`${process.env.PUBLIC_URL}/checklist`} component={Checklist} />
+        <Route path="/checklist" component={Checklist} />
         <Route render={() => <h1>Page not found</h1>} />
       </Switch>
     </div>
